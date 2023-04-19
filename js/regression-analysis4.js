@@ -39,7 +39,7 @@ function linearRegression(values_x, values_y) {
 
 //For kWh vs Month
 const months = [1, 2, 3, 4, 5];
-const kwhs = [119, 0, 0, 0, 0];
+const kwhs = [98, 115, 100, 119, 105];
 var l = linearRegression(months, kwhs);
 
 //For Residents vs kWh
