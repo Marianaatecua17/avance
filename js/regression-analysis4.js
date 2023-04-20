@@ -122,8 +122,8 @@ var m2 = parseFloat(r[0]).toFixed(2);
 var b2 = parseFloat(r[1]).toFixed(2);
 
 document.getElementById(
-  "analysis3Eqn1"
+  "analysis4Eqn1"
 ).innerHTML = `The regression equation is given by $y=${m1}x+${b1}.$`;
 document.getElementById(
-  "analysis3Eqn2"
+  "analysis4Eqn2"
 ).innerHTML = `The regression equation is given by $y=${m2}x+${b2}.$`;
